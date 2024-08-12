@@ -1,0 +1,148 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(red 10%, black, white); 
+  }
+  h1{
+    font-family: 'Verdana', sans-serif;
+    margin-top: 20px;
+  }
+  #container{
+    margin-top: 10px;
+    background-color: white;
+    height: 775px;
+    width: 520px;
+    border-radius: 20px;
+  }
+  form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #label-top{
+    margin-top: 20px;
+    font-family: 'Verdana', sans-serif;
+  }
+  #search-input{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: 250px;
+    font-family: 'Verdana', sans-serif;
+    text-indent: 10px;
+  }
+  #search-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    font-family: 'Verdana', sans-serif;
+    color: white; 
+    cursor: pointer;
+  }
+  #search-button:hover{
+    background-color: black;
+  }
+  #output{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #top-container{
+    margin-top: 20px;
+    background-color: rgba(178, 190, 181, .2);
+    height: 375px;
+    width: 500px;
+  }
+  #name-id{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  #pokemon-name, #pokemon-id{
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-family: 'Verdana', sans-serif;
+  }
+  #weight-height{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #weight, #height{
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-family: 'Verdana', sans-serif;
+  }
+  #sprite{
+    height: 230px;
+    width: 230px;
+  }
+  #img-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  #types{
+    margin-top: 40px;
+  }
+  #types{
+    display: flex;
+    flex-direction: row;
+  }
+  #types p{
+    text-transform: capitalize;
+    margin-left: 10px;
+    color: white;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #types p.fire{
+    background-color: #fdd;
+    color: #d00;
+  }
+  #types p.water {
+    background-color: #ddf;
+    color: #00f;
+  }
+  #types p.electric{
+    background-color: yellow;
+    color: black;
+  }
+  #pok-type{
+    font-family: 'Verdana', sans-serif;
+  }
+  #bottom-container{
+    margin-top: 10px;
+  }
+  td {
+    background-color: red;
+  }
+  .f-column{
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    color: white;
+    height: 35px;
+    width: 350px;
+  }
+  .s-column{
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    color: white;
+    width: 150px;
+  }
+  

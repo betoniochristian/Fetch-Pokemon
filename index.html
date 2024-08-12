@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Search</title>
+  </head>
+  <body>
+    <h1>Pokémon Search App</h1>
+    <div id="container">
+      <form>
+        <label id="label-top">Search for Pokémon Name or ID:</label>
+        <div id="inp-sepa">
+        <input id="search-input" type="text" required>
+        <button id="search-button">Search</button>
+        </div>
+      </form>
+      <div id="output">
+      <div id="top-container"> 
+        <div id="name-id">
+          <p id="pokemon-name"></p>
+          <p id="pokemon-id"></p>
+        </div>
+        <div id="weight-height">
+          <p id="weight"></p>
+          <p id="height"></p>
+        </div>
+        <div id="img-container">
+        </div>
+        <div id="types"></div>
+      </div>
+      <div id="bottom-container">
+        <table>
+        <tbody>
+          <tr>
+            <td class="f-column">Base</td>
+            <td class="s-column">Stats</td>
+          </tr>
+          <tr>
+            <td class="f-column">HP:</td>
+            <td class="s-column" id="hp"></td>
+          </tr>
+          <tr>
+            <td class="f-column">Attack:</td>
+            <td class="s-column" id="attack"></td>
+          </tr>
+          <tr>
+            <td class="f-column">Defense:</td>
+            <td class="s-column" id="defense"></td>
+          </tr>
+          <tr>
+            <td class="f-column">Sp. Attack:</td>
+            <td class="s-column" id="special-attack"></td>
+          </tr>
+          <tr>
+            <td class="f-column">Sp. Defense</td>
+            <td class="s-column" id="special-defense"></td>
+          </tr>
+          <tr>
+            <td class="f-column">Speed</td>
+            <td class="s-column" id="speed"></td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+
+      </div>
+      
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
